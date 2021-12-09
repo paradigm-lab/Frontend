@@ -36,3 +36,23 @@ console.log(general.length);
 console.log(2 + 3);
 console.log("HI " + "There")
 console.log(2 + " hi")
+
+
+/*
+ * Type Conversion:
+ * Implicit convertion - Integer converted to string and back automatically
+ * Explicit convertion - Use javascript functions like parseInt(), parseFloat() etc.
+ */
+
+var num1 = 5;
+var num2 = num1 + 5;
+console.log(num2);
+var num3 = num1 + "5";
+console.log(num3);
+
+// The prompt funtion returns a string
+num1 = prompt("Enter first Real/Floating-point number: ");
+num2 = prompt("Enter second Real/Floating-point number: ");
+alert("The sum of real number is: " + (parseFloat(num1) + parseFloat(num2))); // String to float
+console.log(parseInt(num1) + parseInt(num2));
+
