@@ -41,7 +41,7 @@ if(s1 == s2){
 // The double = sign checks for the values
 var s1 = 9;
 var s2 = "9";
-if (s1 === s2) {
+if (s1 === s2 && s1 != s2) {
 	console.log("If part");
 } else {
 	console.log("Else part");
