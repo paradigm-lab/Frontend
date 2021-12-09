@@ -31,3 +31,8 @@ console.log(typeof general);
 general = [5, 6, 7, 8]
 console.log(typeof general);
 console.log(general.length);
+
+
+console.log(2 + 3);
+console.log("HI " + "There")
+console.log(2 + " hi")
