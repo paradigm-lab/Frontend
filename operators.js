@@ -28,9 +28,9 @@ console.log(s);
 
 
 // Comparison operators
-var s1 = 9;
-var s2 = 8;
-if(s1 == s2){
+var s1 = 8;
+var s2 = "8";
+if(s1 === s2){
 	console.log("s1 is equal to s2");
 } else {
 	console.log("s1 is not equal to s2");
