@@ -46,3 +46,8 @@ if (s1 === s2 && s1 != s2) {
 } else {
 	console.log("Else part");
 }
+
+
+// Ternary operator
+console.log(1 > 2 ? true : false )
+
