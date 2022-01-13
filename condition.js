@@ -10,4 +10,8 @@ switch(weight){
 	case 3:
 		document.write("Weight is 3");
 		break;
+
+	default:
+		document.write("Weight is not in 1, 2, 3");
+		break;
 }
