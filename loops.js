@@ -1,7 +1,7 @@
 // For loop will keep on executing until the condition check return false
 // for(initialization; condition; updation or incremenation and decrementation)
 
-/*
+
 var subjects = ["Maths", "Physics", "Chemistry"];
 var marks = new Array();
 var num1;
@@ -15,7 +15,6 @@ for (i in marks){
 	console.log(marks[i]);
 }
 
-*/
 
 
 // While loop will be executed unless the condition statement returns a Boolean false
