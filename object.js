@@ -6,6 +6,7 @@ let person = {
 person.name = "Collins";
 
 // Bracket Notation 
-person['name'] = "John"
+let selection = "name"
+person[selection] = "John"
 
 console.log(person.name);
