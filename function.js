@@ -1,5 +1,6 @@
-function greet() {
-	console.log("Hello world");
+function greet(name, lastName) {
+	console.log("Hello " + name + ' ' + lastName);
 }
 
-greet();
+greet("Collins", "Golang");
+greet("Rust", "Smith");
