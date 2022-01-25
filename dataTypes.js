@@ -59,5 +59,8 @@ console.log(parseInt(num1) + parseInt(num2));
 */
 
 
-let name;
-console.log(name);
+let name = 'Mosh';	// String Literal
+let age = 30; 		// Number Literal
+let isApproved = false; // Boolean Literal
+let firstName = undefined;
+let lastName = null;	// We use null to explicity clear the value of the variable
