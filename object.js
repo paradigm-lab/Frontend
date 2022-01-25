@@ -5,4 +5,7 @@ let person = {
 // Dot Notation
 person.name = "Collins";
 
+// Bracket Notation 
+person['name'] = "John"
+
 console.log(person.name);
