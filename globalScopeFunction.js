@@ -24,5 +24,14 @@ function fun2() {
 	console.log(output);
 }
 
+// Created a local variable whereby the definition of the variable can't be accesed out of the function 
+function myLocalScope() {
+	var myVar = 6 % 2;
+	console.log(myVar);
+}
+
+
+
 fun1();
 fun2();
+myLocalScope();
