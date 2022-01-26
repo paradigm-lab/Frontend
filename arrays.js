@@ -39,3 +39,7 @@ var removedFromFirst = myArray1.shift();
 console.log(removedFromFirst);
 console.log(myArray1);
 
+
+var unshiftFromFirst = myArray1.unshift(["Hourse", 120]);
+console.log(unshiftFromFirst);
+console.log(myArray1);
