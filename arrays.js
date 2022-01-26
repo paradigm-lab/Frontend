@@ -27,3 +27,9 @@ var myArray1 = [["John", 23], ["Cat", 2]];
 myArray1.push(["Dog", 12]);
 console.log(myArray1);
 
+console.log("\n");
+
+var removedFromMyArray = myArray1.pop();
+console.log(removedFromMyArray);
+console.log(myArray1);
+
