@@ -20,3 +20,10 @@ var myArray = [18, 64, 99];
 // Updating the array using the index 
 myArray[0] = 10;
 console.log(myArray);
+
+console.log("\n");
+
+var myArray1 = [["John", 23], ["Cat", 2]];
+myArray1.push(["Dog", 12]);
+console.log(myArray1);
+
