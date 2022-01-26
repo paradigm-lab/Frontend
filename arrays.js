@@ -33,3 +33,9 @@ var removedFromMyArray = myArray1.pop();
 console.log(removedFromMyArray);
 console.log(myArray1);
 
+console.log("\n");
+
+var removedFromFirst = myArray1.shift();
+console.log(removedFromFirst);
+console.log(myArray1);
+
