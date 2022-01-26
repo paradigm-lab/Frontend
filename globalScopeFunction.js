@@ -2,7 +2,7 @@
 
 // Declare your variable here
 var myGlobal = 10;
-
+var outerWear = "T-Shirt";
 
 function fun1() {
 	// Assign 5 to oppsGlobal here
@@ -30,8 +30,14 @@ function myLocalScope() {
 	console.log(myVar);
 }
 
-
+function myOutFit() {
+	var outerWear = "Sweater";
+	
+	return outerWear;
+}
 
 fun1();
 fun2();
 myLocalScope();
+console.log(outerWear);
+console.log(myOutFit());
