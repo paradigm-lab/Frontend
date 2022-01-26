@@ -58,9 +58,17 @@ console.log(parseInt(num1) + parseInt(num2));
 
 */
 
+// Data is anything that is meaning to the computer
+// Data types in javascript are: Undefined, null, boolean, String, number, object and symbol
+
+// var, let and const
+// var it will be able to use it throught you whole program
+// let will only be used in where you declare that variable
+// const is a variable that should or can't change
 
 let name = 'Mosh';	// String Literal
 let age = 30; 		// Number Literal
 let isApproved = false; // Boolean Literal
 let firstName = undefined;
 let lastName = null;	// We use null to explicity clear the value of the variable
+
