@@ -11,3 +11,10 @@ for(var i = 0; i < 2; i++ ) {
 		console.log(ourArray[i][j]);
 	}
 }
+
+// Created an array
+var myArray = [18, 64, 99];
+
+// Updating the array using the index 
+myArray[0] = 10;
+console.log(myArray);
