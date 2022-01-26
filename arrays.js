@@ -4,7 +4,9 @@ selectedColors[2] = 1;
 
 // Nested Arrays
 var ourArray = [["The universe", 42], ["Everything", 101010]];
-//console.log(ourArray[0][0]);
+console.log(ourArray[1][0]);
+
+console.log("\n");
 
 for(var i = 0; i < 2; i++ ) {
 	for (var j = 0; j < 2; j++) {
