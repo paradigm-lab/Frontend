@@ -69,6 +69,13 @@ function testStrict(val){
 
 console.log(testStrict('7'));
 
+function testNotEqual(val) {
+	if (val != 99) {
+		return "Not Equal";
+	}
+	return "Equal";
+}
 
+console.log(testNotEqual(10));
 
 
