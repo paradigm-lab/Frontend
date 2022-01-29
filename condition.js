@@ -44,6 +44,8 @@ console.log(condition);
 
 
 function testEqual(val){ 
+	// Equallity operator 
+	// This will change the string operator to an integer
 	if (val == 12) {
 		return "Equal";
 	}
@@ -55,6 +57,9 @@ console.log(testEqual(10));
 
 
 function testStrict(val){ 
+
+	// Using the strict equallity operator
+	// Comparison of the type
 	if (val === 7) {
 		return "Equal";
 	}
@@ -63,3 +68,7 @@ function testStrict(val){
 }
 
 console.log(testStrict('7'));
+
+
+
+
