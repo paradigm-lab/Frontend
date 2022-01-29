@@ -1,4 +1,4 @@
-var weight = parseFloat(prompt("Enter your weight: "));
+// var weight = parseFloat(prompt("Enter your weight: "));
 
 switch(weight){
 	case 1:
@@ -29,3 +29,13 @@ else if (weight == 3) {
 else {
 	document.write("Weight is not in 1, 2, 3 \n");
 }
+
+function trueOrFalse(wasThatTrue) {
+	if (wasThatTrue) {
+		return "Yes, that was true";
+	}
+
+	return "No, that was false";
+}
+
+trueOfFalse(true);
