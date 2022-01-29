@@ -9,6 +9,11 @@ function square(number) {
 	return number * number;
 }
 
+// Returning a value from a function 
+function minusSeven(num) {
+	return num - 7;
+}
+
 
 // Passing the Values to functions with arguments
 // Parameter a variable but they act as a placeholder
@@ -24,3 +29,4 @@ console.log(number);
 
 greet("Collins", "Golang");
 greet("Rust", "Smith");
+minusSeven(7);
