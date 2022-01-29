@@ -88,7 +88,23 @@ function testStrictNotEqual(val) {
 	return "Equal";
 }
 
-console.log(testStrictNotEqual(17))
+console.log(testStrictNotEqual(17));
+
+
+// Comparison function
+function testGreaterThan(val) {
+	if (val > 100) {
+		return "Over 100";
+	}	
+
+	if (val > 10) {
+		return "Above 10";
+	}
+
+	return "10 or Under";
+}
+
+console.log(testGreaterThan(10));
 
 
 
