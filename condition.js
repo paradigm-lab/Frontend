@@ -133,3 +133,14 @@ function testLogicalAnd(val) {
 }
 
 console.log(testLogicalAnd(30));
+
+
+// Comparisons with the logical OR operator
+function testLogicalOr(val) {
+	if (val < 10 || val > 20) {
+		return "Outside";
+	}
+	return "Inside";
+}
+
+console.log(testLogicalOr(15));
