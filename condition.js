@@ -69,6 +69,7 @@ function testStrict(val){
 
 console.log(testStrict('7'));
 
+// Using the not Equal comparison operator 
 function testNotEqual(val) {
 	if (val != 99) {
 		return "Not Equal";
@@ -77,5 +78,18 @@ function testNotEqual(val) {
 }
 
 console.log(testNotEqual(10));
+
+
+// Using the Strict not equal
+function testStrictNotEqual(val) {
+	if (val !== 17) {
+		return "Not Equal";
+	}
+	return "Equal";
+}
+
+console.log(testStrictNotEqual(17))
+
+
 
 
