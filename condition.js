@@ -1,5 +1,5 @@
 // var weight = parseFloat(prompt("Enter your weight: "));
-
+var weight;
 switch(weight){
 	case 1:
 		document.write("Weight is 1 \n");
@@ -38,4 +38,5 @@ function trueOrFalse(wasThatTrue) {
 	return "No, that was false";
 }
 
-trueOfFalse(true);
+var condition = trueOrFalse(true);
+console.log(condition);
