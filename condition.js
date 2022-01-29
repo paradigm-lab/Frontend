@@ -40,3 +40,15 @@ function trueOrFalse(wasThatTrue) {
 
 var condition = trueOrFalse(true);
 console.log(condition);
+
+
+
+function testEqual(val){ 
+	if (val == 12) {
+		return "Equal";
+	}
+
+	return "Not Equal";
+}
+
+console.log(testEqual(10));
