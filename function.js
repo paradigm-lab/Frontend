@@ -35,3 +35,12 @@ greet("Collins", "Golang");
 greet("Rust", "Smith");
 console.log(minusSeven(10));
 console.log(timesFive(5));
+
+var processed = 0;
+
+function processedArg(num) {
+	return (num + 3) / 5;
+}
+
+processed = processedArg(10);
+console.log(processed);
