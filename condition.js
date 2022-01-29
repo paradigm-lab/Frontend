@@ -144,3 +144,19 @@ function testLogicalOr(val) {
 }
 
 console.log(testLogicalOr(15));
+
+
+// The control flow using the else block condition
+function testElse(val) {
+	var result = "";
+
+	if (val > 5) {
+		result = "Bigger than 5";
+	} else {
+		result = "5 or Smaller";
+	}
+
+	return result;
+}
+
+console.log(testElse(4));
