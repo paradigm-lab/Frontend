@@ -21,6 +21,10 @@ function ourFunctionWithArgs(a, b) {
 	console.log(a - b);
 }
 
+function timesFive(num) {
+	return num * 5;
+}
+
 ourFunctionWithArgs(2, 2);
 
 
@@ -29,4 +33,5 @@ console.log(number);
 
 greet("Collins", "Golang");
 greet("Rust", "Smith");
-minusSeven(7);
+console.log(minusSeven(10));
+console.log(timesFive(5));
