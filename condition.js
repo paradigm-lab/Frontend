@@ -122,3 +122,14 @@ function testGreaterOrEqual(val) {
 
 console.log(testGreaterOrEqual(10));
 
+
+// Comparisons with the Logical and Operator
+function testLogicalAnd(val) {
+	if (val >= 20 && val <= 50) {
+		return "yes";
+	}
+
+	return "NO";
+}
+
+console.log(testLogicalAnd(30));
