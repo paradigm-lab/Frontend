@@ -93,14 +93,19 @@ function chainToSwitch(val) {
 
 function isLess(a, b) {
 	// Fix this code
-	if (a < b) {
-		return true;
-	}  else {
-		return false;
-	}
+	/*
+		if (a < b) {
+			return true;
+		}  else {
+			return false;
+		}
+	*/
+
+	return a < b;
+
 }
 
-console.log(isLess(2, 3));
+console.log(isLess(3, 3));
 // console.log(chainToSwitch("bob"));
 // console.log(sequentialSizes(5));
 // console.log(caseInSwitch(4));
