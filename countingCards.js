@@ -28,3 +28,5 @@ function cc(card) {
 	return count + " " + holdbet;
 	
 }
+
+console.log(cc(4));
