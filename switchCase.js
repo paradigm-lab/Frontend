@@ -62,5 +62,5 @@ function sequentialSizes(val) {
 	return answer;
 }	
 
-console.log(sequentialSizes(1));
+console.log(sequentialSizes(5));
 // console.log(caseInSwitch(4));
