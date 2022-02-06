@@ -10,12 +10,21 @@ function cc(card) {
 		case 6:
 			count++;
 			break;	
-		case 7:
-		case 8:
-		case 9:
+		case 10:
+		case "J":
+		case "Q":
+		case "K":
+		case "A":
+			count--;
+			break;
 
 	}
+	
+	var holdbet = "Hold";
+	if (count > 0) {
+		holdbet = "Bet";
+	}
 
-	return "Change Me";
+	return count + " " + holdbet;
 	
 }
