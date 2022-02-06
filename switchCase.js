@@ -66,8 +66,7 @@ function sequentialSizes(val) {
 function chainToSwitch(val) {
 	var answer = "";
 
-	switch (val) {
-			
+	switch (val) {	
 		case "bob":
 			answer = "Marley";
 			break;
@@ -92,6 +91,16 @@ function chainToSwitch(val) {
 	return answer;
 }	
 
-console.log(chainToSwitch("bob"));
+function isLess(a, b) {
+	// Fix this code
+	if (a < b) {
+		return true;
+	}  else {
+		return false;
+	}
+}
+
+console.log(isLess(2, 3));
+// console.log(chainToSwitch("bob"));
 // console.log(sequentialSizes(5));
 // console.log(caseInSwitch(4));
