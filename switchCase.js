@@ -91,6 +91,7 @@ function chainToSwitch(val) {
 	return answer;
 }	
 
+// Returning a boolean value which is either True or False
 function isLess(a, b) {
 	// Fix this code
 	/*
@@ -105,7 +106,13 @@ function isLess(a, b) {
 
 }
 
-console.log(isLess(3, 3));
+// Returning Early Pattern from Functions
+
+
+
+
+
+// console.log(isLess(3, 3));
 // console.log(chainToSwitch("bob"));
 // console.log(sequentialSizes(5));
 // console.log(caseInSwitch(4));
