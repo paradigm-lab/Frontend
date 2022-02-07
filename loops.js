@@ -39,12 +39,16 @@ do {
 */
 
 
+console.log("Debugging the program");
+/*
 function evenNumbers(a, b) {
 	for(var i = a; i <= b; i++) {
 		if (i % 2 == 0) {
 			print(i);
 		}
 	}
+	return 0;
 }
+*/
 
-console.log(evenNumbers(1, 10));
+// console.log(evenNumbers(1, 10));
