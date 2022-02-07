@@ -48,4 +48,17 @@ function evenNumbers(a, b) {
 	}
 }
 
+function primeNumbers(a, b) {
+	for (var i = a; i <= b; i++) {
+		if (i % 2 == 0) {
+			
+		}
+		else {
+			console.log(i);
+		}
+	}
+
+}
+
+console.log(primeNumbers(a, b))
 console.log(evenNumbers(1, 10));
