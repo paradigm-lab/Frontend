@@ -40,6 +40,7 @@ do {
 
 
 console.log("Debugging the program");
+console.log("Even numbers:");
 function evenNumbers(a, b) {
 	for(var i = a; i <= b; i++) {
 		if (i % 2 == 0) {
@@ -47,7 +48,7 @@ function evenNumbers(a, b) {
 		}
 	}
 }
-
+console.log("Prime Numers: ")
 function primeNumbers(a, b) {
 	for (var i = a; i <= b; i++) {
 		if (i % 2 == 0) {
