@@ -60,5 +60,5 @@ function primeNumbers(a, b) {
 
 }
 
-console.log(primeNumbers(a, b))
+console.log(primeNumbers(1, 10))
 console.log(evenNumbers(1, 10));
