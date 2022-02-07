@@ -1,3 +1,4 @@
+/*
 // For loop will keep on executing until the condition check return false
 // for(initialization; condition; updation or incremenation and decrementation)
 
@@ -35,3 +36,15 @@ do {
 	i++;
 
 } while(i < 10);
+*/
+
+
+function evenNumbers(a, b) {
+	for(var i = a; i <= b; i++) {
+		if (i % 2 == 0) {
+			print(i);
+		}
+	}
+}
+
+console.log(evenNumbers(1, 10));
