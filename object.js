@@ -55,8 +55,9 @@ var VarifyObj = {
 };
 
 
-
-
+var playerNumber = 16;
+var player = VarifyObj[playerNumber];
+console.log(player);
 
 
 
