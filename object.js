@@ -38,4 +38,8 @@ var testObj = {
 	
 };
 
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["The drink"];
 
+console.log(entreeValue);
+console.log(drinkValue);
