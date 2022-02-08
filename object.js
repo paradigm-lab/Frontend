@@ -43,3 +43,29 @@ var drinkValue = testObj["The drink"];
 
 console.log(entreeValue);
 console.log(drinkValue);
+
+
+// Accessing Object Properties with variables
+var VarifyObj = {
+
+	12: "Namath",
+	16: "Montana",
+	19: "Unitas",
+	
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
