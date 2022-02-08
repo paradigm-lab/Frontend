@@ -29,3 +29,13 @@ var friendsValue = myDog.friends;
 
 console.log(nameValue);
 console.log(friendsValue);
+
+var testObj = {
+
+	"an entree": "hamburger",
+	"my side": "Veggies",
+	"The drink": "Water"
+	
+};
+
+
