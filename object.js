@@ -9,7 +9,7 @@ person.name = "Collins";
 let selection = "name"
 person[selection] = "John"
 
-console.log(person.name);
+// console.log(person.name);
 
 
 // Objects
@@ -22,3 +22,10 @@ var myDog = {
 	"friends":[]
 
 }
+
+// Accessing the properties in the object using the dot
+var nameValue = myDog.name;
+var friendsValue = myDog.friends;
+
+console.log(nameValue);
+console.log(friendsValue);
