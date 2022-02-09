@@ -73,3 +73,7 @@ person1.eyecolor = "Blue";
 console.log(person1.age);
 
 const person2 = new Object();
+person2.firstName = "John";
+person2.lastName = "Doe";
+person2.age = 50;
+person2.eyeColor = "blue";
