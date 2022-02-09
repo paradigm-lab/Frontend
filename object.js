@@ -62,14 +62,14 @@ console.log(player);
 
 
 
-const person = {};
+const person1 = {};
 
-person.firstname = "John";
-person.lastname = "Doe";
-person.age = 50;
-person.eyecolor = "Blue";
+person1.firstname = "John";
+person1.lastname = "Doe";
+person1.age = 50;
+person1.eyecolor = "Blue";
 
 
-
+console.log(person1.age);
 
 
