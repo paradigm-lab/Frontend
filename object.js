@@ -64,7 +64,10 @@ console.log(player);
 
 const person = {};
 
-
+person.firstname = "John";
+person.lastname = "Doe";
+person.age = 50;
+person.eyecolor = "Blue";
 
 
 
