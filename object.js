@@ -62,7 +62,7 @@ console.log(player);
 
 
 
-
+const person = {};
 
 
 
