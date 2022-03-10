@@ -11,3 +11,15 @@ while (i < 5) {
 }
 
 console.log(myArray);
+
+
+// Iterate with For Loops
+var ourArray = [];
+
+// For loop format
+// Initialization, Condition and Incrementation or Decrementation
+for (var i = 6; i > 1; i--) {
+  ourArray.push(i);
+}
+
+console.log(ourArray);
