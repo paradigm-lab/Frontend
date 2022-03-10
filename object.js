@@ -63,7 +63,18 @@ var player = VarifyObj[playerNumber];
 console.log(player);
 
 
+var myCat = {
+	"name": "Happy Coder",
+	"legs": 4,
+	"tails": 1,
+	"friends": ["Campers"]
+};
 
+myCat['Bark'] = "Meow"
+myCat.eat = "Rat"
+
+console.log(myCat.Bark);
+console.log(myCat.eat);
 
 const person1 = {};
 
