@@ -23,3 +23,13 @@ for (var i = 6; i > 1; i--) {
 }
 
 console.log(ourArray);
+
+
+// Iterate Odd Numbers with a For Loop
+var youArray = [];
+
+for (var i = 1; i < 10; i += 2) {
+  youArray.push(i);
+}
+
+console.log(youArray);
