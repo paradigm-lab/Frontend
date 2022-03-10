@@ -5,7 +5,7 @@ let person = {
 // Dot Notation
 person.name = "Collins";
 
-// Bracket Notation 
+// Bracket Notation
 let selection = "name"
 person[selection] = "John"
 
@@ -21,7 +21,7 @@ var myDog = {
 	"tails": 2,
 	"friends":["Blucky"]
 
-}
+};
 
 // Accessing the properties in the object using the dot
 var nameValue = myDog.name;
@@ -30,16 +30,19 @@ var friendsValue = myDog.friends;
 console.log(nameValue);
 console.log(friendsValue);
 
+
+
 var testObj = {
 
 	"an entree": "hamburger",
 	"my side": "Veggies",
 	"The drink": "Water"
-	
+
 };
 
+// Accessing the properties in the object using the Bracket Notation
 var entreeValue = testObj["an entree"];
-var drinkValue = testObj["The drink"];
+var drinkValue = testObj['The drink'];
 
 console.log(entreeValue);
 console.log(drinkValue);
@@ -51,7 +54,7 @@ var VarifyObj = {
 	12: "Namath",
 	16: "Montana",
 	19: "Unitas",
-	
+
 };
 
 
