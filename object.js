@@ -70,11 +70,15 @@ var myCat = {
 	"friends": ["Campers"]
 };
 
-myCat['Bark'] = "Meow"
+myCat['Sound'] = "Meow"
 myCat.eat = "Rat"
 
-console.log(myCat.Bark);
+console.log(myCat.Sound);
 console.log(myCat.eat);
+
+
+// Deleting a property from the Object
+delete myCat.tails;
 
 const person1 = {};
 
