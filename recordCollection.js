@@ -32,6 +32,7 @@ var collection = {
 // Keep a copy of the collection for tests
 // Copy of the object
 var collectionCopy = JSON.parse(JSON.stringify(collection));
+console.log(collectionCopy);
 
 function updateRecords(id, prop, value) {
   if (value === "") {
@@ -45,7 +46,6 @@ function updateRecords(id, prop, value) {
 
   return collection;
 }
-
 
 // Alter values below to test the function
 updateRecords(2468, "tracks", "test");
