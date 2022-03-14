@@ -13,3 +13,12 @@ console.log(randomFraction());
  }
 
  console.log(randomWholeNum());
+
+ // Generate Random Whole Numbers Within a Range
+ function randomRange(myMin, myMax) {
+
+    return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+ }
+
+ var myRandom = randomRange(0, 10);
+ console.log(myRandom);
