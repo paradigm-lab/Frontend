@@ -22,3 +22,14 @@ console.log(randomFraction());
 
  var myRandom = randomRange(0, 10);
  console.log(myRandom);
+
+
+ // Use the parseInt Function
+ function convertToInteger(str) {
+
+    return parseInt(str);
+ }
+
+ var num = convertToInteger("40");
+ console.log(num + 10);
+ 
