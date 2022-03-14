@@ -24,12 +24,16 @@ console.log(randomFraction());
  console.log(myRandom);
 
 
- // Use the parseInt Function
+// Use the parseInt Function
+// Use the parseInt function with a Radix default is base 10
  function convertToInteger(str) {
 
-    return parseInt(str);
+    return parseInt(str, 2);
  }
 
- var num = convertToInteger("40");
+ var num = convertToInteger("10011");
  console.log(num + 10);
+
+
+
  
