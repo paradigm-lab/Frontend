@@ -10,24 +10,24 @@ var contacts = [
   },
 
   {
-    "firstName": "Akira",
-    "lastName": "Laine",
-    "number": "0621611266",
-    "likes": ["Pizza", "Coding", "Brownie Points"]
+    "firstName": "Harry",
+    "lastName": "Potter",
+    "number": "07437294",
+    "likes": ["Hogwarts", "Magic", "Hagrid"]
   },
 
   {
-    "firstName": "Akira",
-    "lastName": "Laine",
-    "number": "0621611266",
-    "likes": ["Pizza", "Coding", "Brownie Points"]
+    "firstName": "Sherlock",
+    "lastName": "Holmes",
+    "number": "0734564310",
+    "likes": ["Intriguing", "Cases", "Violin"]
   },
 
   {
-    "firstName": "Akira",
-    "lastName": "Laine",
-    "number": "0621611266",
-    "likes": ["Pizza", "Coding", "Brownie Points"]
+    "firstName": "Kristan",
+    "lastName": "Vos",
+    "number": "0721321030",
+    "likes": ["Javascript", "Gaming", "Foxes"]
   }
 ];
 
@@ -41,6 +41,6 @@ function lookUpProfile(name, prop){
 }
 
 // Change these values to test the function
-var data = lookUpProfile("Akira", "number");
+var data = lookUpProfile("Kristan", "number");
 
 console.log(data);
