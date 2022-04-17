@@ -53,7 +53,7 @@ function greeting(name) {
 	console.log(result);
 }
 
-greeting(name);
+// greeting(name);
 
 // Taking arguments in the f(x)
 function sumNumbers(num1, num2) {
@@ -80,5 +80,20 @@ while (num < 100) {
 for (let num = 0; num <= 100; num++) {
 	console.log(num);
 }
+
+
+// Data Types
+var yourAge = 18; 				// Number
+let yourName = "Bob";				// String 
+let name = {
+	first: 'Jane', 
+	last: 'Doe'
+} 						// Object
+let truth = false;				// boolean
+let groceries = ['apple', 'banana', 'oranges']; // Array
+let random; 					// undefined
+let nothing = null; 				// value null
+
+
 
 
