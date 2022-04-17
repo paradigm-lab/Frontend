@@ -33,3 +33,35 @@ num1 += 10;
 console.log(num1);
 
 
+/* 
+ * Function
+ *-> Create a f(x)
+ *-> call a f(x)
+ */
+function fun() {
+	console.log('This is a function');
+}
+
+// Call a f(x)
+fun();
+
+
+
+var name = prompt("What is your name?");
+function greeting(name) {
+	var result = "Hello" + ' ' + name; // String Concatenation
+	console.log(result);
+}
+
+greeting(name);
+
+// Taking arguments in the f(x)
+function sumNumbers(num1, num2) {
+	var result = num1 + num2;
+	console.log(result);
+}
+
+
+sumNumbers(10, 10); // The f(x) will add the two numbers 
+sumNumbers("Hello ", "Collins"); // The f(x) will concatenate the two Strings together
+
