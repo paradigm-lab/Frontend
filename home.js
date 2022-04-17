@@ -95,5 +95,12 @@ let random; 					// undefined
 let nothing = null; 				// value null
 
 
+// Strings in Javascript (common methods)
+let fruit = 'banana\napple';			// New line
+console.log(fruit.length);
+console.log(fruit.indexOf('n'));		// Getting an index from the Array of characters
+console.log(fruit.slice(2, 5));
+
+
 
 
