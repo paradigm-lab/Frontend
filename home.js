@@ -47,7 +47,7 @@ fun();
 
 
 
-var name = prompt("What is your name?");
+// var name = prompt("What is your name?");
 function greeting(name) {
 	var result = "Hello" + ' ' + name; // String Concatenation
 	console.log(result);
@@ -64,4 +64,21 @@ function sumNumbers(num1, num2) {
 
 sumNumbers(10, 10); // The f(x) will add the two numbers 
 sumNumbers("Hello ", "Collins"); // The f(x) will concatenate the two Strings together
+
+
+
+// While loop
+/*
+var num = 0;
+while (num < 100) {
+	num += 20;
+	console.log(num);
+} 
+*/
+
+// For loop
+for (let num = 0; num <= 100; num++) {
+	console.log(num);
+}
+
 
