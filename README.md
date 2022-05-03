@@ -19,5 +19,10 @@ History of Javascript:
 2017 - ECMAScript2017 (ES2017 - ES8) 
 2018 - ECMAScript2018 (ES2018 - ES9)
 
+Syntax is a set of rules that defines the combinations of symbols that are considered to be a correctly structured document in that language
+* The grammar of our javascript code should be valid.
+
+Syntax Parser is the prode of javascript engineer whereby it Checks code character by character.
+
 
  
