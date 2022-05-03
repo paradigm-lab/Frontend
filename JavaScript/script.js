@@ -67,6 +67,42 @@ if (gender === 'Male') {
 	console.log(myChild + ' is my daughter');
 }
 
+// if ... else if ... else
+var prof = 'doctor';
+
+if (prof === 'instructor') {
+	console.log(prof + ' teaches students');
+} else if (prof === 'doctor') {
+	console.log(prof + ' treats people');
+} else if (prof === 'compose') {
+	console.log(prof + ' creates the music');
+} else {
+	console.log('Professions do not match'); 
+}
+
+
+// Logical Operators are used to determin the logic between variables or values
+// AND -> &&, OR -> ||, NOT -> !
+if (5 === 5 && 4 === 4) {
+	console.log('Condition is true');
+} else {
+	console.log('Condition is false');
+}
+
+if (5 === 4 || 4 === 4) {
+	console.log('Condition is true');
+} else {
+	console.log('Condition is false');
+}
+
+if (!4 === 4) {
+	console.log('Condition is true');
+} else {
+	console.log('Condition is false');
+}
+
+
+
 
 
 
