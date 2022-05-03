@@ -42,9 +42,42 @@ console.log(a);
 // Comparison operators are used in logical statements to determine equality or difference between variables or values.
 // Double equal compare the value while Triple equal sing compare the value and type
 // != and !== (Strict Not equal) Not Equal 
-// Type corrition
 var a = 5;
 var b = '5';
+
+/*
+Type coercion means that a value from one type can be converted to another on run-time(on fly).
+true == 1 -> True and false == 0 -> False 
+5 === 5 === 5 -> False whereby 5 === 5 while return a bool and bool not equal to integer
+*/
+
+var value = 10 * '5';
+var valueb = 5 + 10 + 'b';
+var valuec = 'b' + 5 + 10;
+console.log(valuec);
+
+// Conditional Statement is a statement that will evaluate condition to be either TRUE or FALSE.
+// if ... else ...
+var myChild = 'Alexis';
+var gender = 'Male';
+
+if (gender === 'Male') {
+	console.log(myChild + ' is my son');
+} else { 
+	console.log(myChild + ' is my daughter');
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
