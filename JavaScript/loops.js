@@ -2,7 +2,7 @@
 
 var arr = ['John', 'Nick', 'Bob', 'Michael', 'Mary'];
 
-for (var i = 0; i < arr.length; i++) { 
+for (let i = 0; i < arr.length; i++) { 
 	
 	if (arr[i] === "Bob") {
 		continue;
@@ -22,6 +22,7 @@ while (counter <= 10) {
 
 console.log();
 
+
 var colors = ["White", "Red", "Green", "Blue"];
 
 var counter = 0;
@@ -30,3 +31,13 @@ while (counter < colors.length) {
 	console.log(colors[counter]);
 	counter++;
 }
+
+
+console.log();
+
+let i = 0;
+
+do {
+	console.log(colors[i]);
+	i++;
+} while (i < colors.length)
