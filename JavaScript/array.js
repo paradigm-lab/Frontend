@@ -3,7 +3,7 @@
 
 // Array literal
 // To access the specific item in the array using the index
-var arr = ['John', 'Bob', 'Mary', 10, true, [1, 2, 3]];
+var arr = ['John', 'Bob', 'Mary', 10, true, [1, 2, 3], function(name) { return "Hello " + name;}];
 
-console.log(arr[5][0]);
+console.log(arr[6](arr[0]));
 
