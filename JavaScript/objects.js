@@ -2,10 +2,12 @@
 // In javascript almost everything is an object
 // objects can hava properties and method 
 // Whereby properties can be primitive data types and object it self
-// Curly braces always represents an object
+// Curly braces {...} always represents an object
 // . (dot) Member Access used to create access or dynamically changed the value of the property in the object
 // [..] (Computed Member Access) 
 
+/*
+// constructor notation
 var person = new Object();
 
 var job = 'Profession';
@@ -21,3 +23,24 @@ person.son.age = 5;
 console.log(person);
 console.log(person.firstname);
 console.log(person['lastname']);
+*/
+
+
+// Literal notation
+var person = {
+	firstname: "Toshi", 
+	lastname: "Smith", 
+	age: 35,
+	daughter: {
+		name: "Mary",
+		age: 5
+	},
+
+	myFunc: function(daughterName, fatherName, daughterAge) {
+		console.log(daughterName + " is a daughter of " + fatherName + " and she is " + daughterAge + " years old");
+	}
+};
+
+console.log(person);
+console.log(person["daughter"]["name"]);
+person.myFunc(person.daughter.name, person.firstname, person.daughter.age);
