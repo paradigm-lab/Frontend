@@ -61,5 +61,17 @@ Note: When the variable is created outside the function it's on the global level
       obj.b()
 
 
+### Execution Context and Execution Stack
+
+### Execution Stack
+
+Global Execution Context -----> Global Window Object ----> this will be created -----> Syntax parser will check the code line by line
+if Syntactically === Syntax parser -> valid 
+Javascript Engineer will start the execution line by line: Start the Execution Context  
+
+
+
+
+
 
  
