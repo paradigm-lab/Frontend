@@ -20,3 +20,46 @@ Lexical Scope or Lexical Environment is an environment, where a piece of the ent
 
 Execution Context is ac container, Which manages the code that is currently running
  	*In most cases it is created by the functions
+
+	HTML page -->> Web Browser (The javascript engineer prepare the Global Execution Context)
+
+Global Execution Context is a base execution contex that manages the code which is not inside a function
+	*It is created immediately when the page is loaded
+
+Global Object or Window Object is an object which is always exist in the Global Scope 
+
+this is a special keyword and it's always referring to objects and 
+     In global level it's reffered to global window object.
+
+Note: When the variable is created outside the function it's on the global level and it's assigned to the global window object as a property.
+	eg: var name = "Test";
+	    window.name
+	    this.name
+
+      Function are attached in the global window object as a method
+	eg: function name() {
+
+		return "Hello";
+	    }
+	    window.name()
+	    this.name()
+
+      Object are referred in the global object using the name and the property name or method name or the key.
+      var obj = {
+	  name: 'Nick"
+	  b: function() {
+		return 'Hi';
+	  }
+      }
+     
+      Accessing the properties
+      obj.name
+      obj.name
+
+      Accessing the methods	
+      obj.b()
+      obj.b()
+
+
+
+ 
