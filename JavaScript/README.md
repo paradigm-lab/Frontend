@@ -70,6 +70,8 @@ Global Execution Context -----> Global Window Object ----> this will be created 
 if Syntactically === Syntax parser -> valid 
 Javascript Engineer will start the execution line by line: Start the Execution Context  
 
+Recursion:  	We will get a Maximum call stack size exceeded or Too much recursion
+		This is because every javascript engineer has a limit of the execution stack so we can end up getting an error
 
 
 
