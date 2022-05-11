@@ -96,3 +96,9 @@ Nt: All this happen before the javascript engineer start executing the code.
 
 -> Execution Stage 
 	* In this stage javascrip engineer execute the code line by line 
+
+
+
+
+### Objects VS Primitives
+
