@@ -102,3 +102,14 @@ Nt: All this happen before the javascript engineer start executing the code.
 
 ### Objects VS Primitives
 
+
+
+
+
+
+
+### THIS
+this === window 
+-> For the regular functions this key word still point to the global window object except for the methods of an object.
+-> Local(function) Execution context this at this point it refers to the local object and not the global window object
+
