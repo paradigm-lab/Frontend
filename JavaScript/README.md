@@ -73,7 +73,12 @@ Javascript Engineer will start the execution line by line: Start the Execution C
 Recursion:  	We will get a Maximum call stack size exceeded or Too much recursion
 		This is because every javascript engineer has a limit of the execution stack so we can end up getting an error
 
+scope and Scope Chain
+Scope in programming language refers to the visibilty or accessibility of variables and functions
+Scope chain accessibility for the variables.
+Local variables are defined within function because they have local scope.
 
+* It tells you where in your program you are allowed to use the variables and functions that you have defined.
 
 
 
