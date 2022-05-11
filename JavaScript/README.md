@@ -19,7 +19,7 @@ Syntax Parser reads the code character by character and checks if its grammar is
 Lexical Scope or Lexical Environment is an environment, where a piece of the entire code physically sits.
 	*Javascript engine behaves in differenct ways according to where this piece of code is placed
 
-Execution Context is ac container, Which manages the code that is currently running
+Execution Context is a container, Which manages the code that is currently running
  	*In most cases it is created by the functions
 
 	HTML page -->> Web Browser (The javascript engineer prepare the Global Execution Context)
@@ -82,4 +82,17 @@ Local variables are defined within function because they have local scope.
 
 
 
+### Hoisting 
+## Execution Context
+# Hoisting in creation stage variables and function declarations are put into memory space.
+* In creation stage all variables are set to undefined
+
+Nt: All this happen before the javascript engineer start executing the code.
  
+-> Creation Stage -> Global Object, 'this', Scope Chain
+	-> When javascrip engineer created the memory for the variables it assign to all those variable the value undefined.
+	-> Functions don't get any values.
+	-> All this creation is called hoisting
+
+-> Execution Stage 
+	* In this stage javascrip engineer execute the code line by line 
