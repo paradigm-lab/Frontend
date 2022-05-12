@@ -165,5 +165,10 @@ We use document or window.document to get the document in the console.
 	* geElementsByClassName get elements by specific the class name.
 	* getElementsByTagName get elements by specific tag name.
 
+- querySelectorAll('selector')
+	* Return all elements in the document that matches a specified CSS selector
+	* You can select multiple elements with multiple selectors separated by commas
+
+
 - foreach() method executes a provided function once for each array element.
 	* uses function as a paramenter
