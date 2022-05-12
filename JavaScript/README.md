@@ -145,7 +145,7 @@ eg:
 	
 We use document or window.document to get the document in the console.
 
-# Single Elements
+# Single Elements or Individual Elements
 - getElementsById()
 
 - querySelector('selector')
@@ -157,7 +157,7 @@ We use document or window.document to get the document in the console.
 	* Returns a collection of all elements in the document with specified class name.
 	* Collection is not an array
 
-- getElementsByTagName('tag)
+- getElementsByTagName('tag')
 	* Returns a collection of all elements in the document with the specified tag name.
 	* Return HTML collection
 
@@ -168,7 +168,6 @@ We use document or window.document to get the document in the console.
 - querySelectorAll('selector')
 	* Return all elements in the document that matches a specified CSS selector
 	* You can select multiple elements with multiple selectors separated by commas
-
 
 - foreach() method executes a provided function once for each array element.
 	* uses function as a paramenter
