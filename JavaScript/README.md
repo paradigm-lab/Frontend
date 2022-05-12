@@ -113,3 +113,39 @@ this === window
 -> For the regular functions this key word still point to the global window object except for the methods of an object.
 -> Local(function) Execution context this at this point it refers to the local object and not the global window object
 
+
+
+
+
+
+### Document Object Model
+- Manipulate on individual Elements
+- Manipulate on multiple Elements
+- DOM Styles
+- DOM Classes
+- Events
+- set / Get Attributes
+- DOM Navigation
+- Note Manager App
+
+Document Object Model (DOM):
+	DOM is a cross-platform and language-independent model for representing and interacting with elements in HTML documents.
+	
+	* The DOM is neither part of HTML, nor part of JavaScript
+	* DOM as a Tree
+
+Nodes:
+	* DOM is a collection of nodes
+	* Everything in HTML document is a node
+
+eg: 
+	<p class='par'> This is my first paragraph </p>
+	Element Node: p
+	Attribute Node: Used to give more specification about an element. eg: class
+	
+
+
+
+
+
+
