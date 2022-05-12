@@ -20,6 +20,7 @@ var per = {
 	firstname: 'John',
 	lastname: 'Smith',
 	getFullName: function() {
+		// We maintaine the reference to object per and not the global window object
 		var that = this;
 		// console.log(this === per);
 		console.log(this.firstname + ' ' + this.lastname);
@@ -41,5 +42,6 @@ var per1 = {
 // This fact allow as to borrow the method from object per
 per1.getFullname = per.getFullName;
 
-console.log(per.getFullName());
+per.getFullName();
 per1.getFullname();
+
