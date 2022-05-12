@@ -169,6 +169,7 @@ We use document or window.document to get the document object in the console.
 - querySelectorAll('selector')
 	* Return all elements in the document that matches a specified CSS selector
 	* You can select multiple elements with multiple selectors separated by commas
+	* It selects element line by line from top to bottom.
 
 - foreach() method executes a provided function once for each array element.
 	* uses function as a paramenter
