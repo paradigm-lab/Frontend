@@ -143,9 +143,17 @@ eg:
 	Element Node: p
 	Attribute Node: Used to give more specification about an element. eg: class
 	
+We use document or window.document to get the document in the console.
 
+# Single Elements
+- getById()
 
+- querySelector('selector')
+	* Returns the first element that matches a specified CSS selector in the document.
+	* String argument always must to follow CSS syntax.
 
-
-
+# Multiple Elements
+- getElementsByClassName('class')
+	* Returns a collection of all elements in the document with specified class name.
+	* Collection is not an array
 
