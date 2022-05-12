@@ -146,7 +146,7 @@ eg:
 We use document or window.document to get the document in the console.
 
 # Single Elements
-- getById()
+- getElementsById()
 
 - querySelector('selector')
 	* Returns the first element that matches a specified CSS selector in the document.
@@ -157,3 +157,13 @@ We use document or window.document to get the document in the console.
 	* Returns a collection of all elements in the document with specified class name.
 	* Collection is not an array
 
+- getElementsByTagName('tag)
+	* Returns a collection of all elements in the document with the specified tag name.
+	* Return HTML collection
+
+- The main difference between the getElementsByClassName and getElementsByTagName
+	* geElementsByClassName get elements by specific the class name.
+	* getElementsByTagName get elements by specific tag name.
+
+- foreach() method executes a provided function once for each array element.
+	* uses function as a paramenter
