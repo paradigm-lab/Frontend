@@ -143,7 +143,8 @@ eg:
 	Element Node: p
 	Attribute Node: Used to give more specification about an element. eg: class
 	
-We use document or window.document to get the document in the console.
+document is an object. We can prove this by writing typeof document in the console.
+We use document or window.document to get the document object in the console.
 
 # Single Elements or Individual Elements
 - getElementsById()
