@@ -108,12 +108,14 @@ function b() {
 
 
 h2.addEventListener("click", a);
-h2.addEventListener("click", b);
+// h2.addEventListener("click", b);
 
 function a() {
-	console.log("Clicked a");
+	console.log(this);
 }
 
+/* 
 function b() {
 	console.log("Clicked b");
 }
+*/

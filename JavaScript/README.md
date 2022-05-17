@@ -211,3 +211,7 @@ We use document or window.document to get the document object in the console.
 - addEventListener()
 	* Attaches an event handler to the specified element
 	* You can use multiple similar events to one element at a time.
+
+- Event Object
+	* When an event occurs, the event object is created
+	* In most cases Event Object is expressed as (e)
