@@ -234,3 +234,5 @@ We use document or window.document to get the document object in the console.
 	* Sets the value of an attribute on the specified element
 	* If the attribute already exists, the value is updated
 
+
+# DOM Navigation

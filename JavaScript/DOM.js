@@ -185,3 +185,37 @@ btn.addEventListener("click", function(e) {
 	input.setAttribute("value", input.value);
 });
 
+
+var listItem = document.getElementById("list-item");
+
+
+console.log(listItem.parentNode);
+console.log(listItem.parentNode.parentNode);
+console.log(listItem.parentElement);
+listItem.parentElement.style.background = "aqua";
+
+// Text Nodes are actually the white spaces which are btwn the elements
+console.log(listItem.childNodes);
+
+// Ignores the spaces and returns the HTMLCollectin
+console.log(listItem.children);
+
+
+// It recognize the white spaces as child nodes
+console.log(listItem.firstChild);
+// It ignores the white spaces
+console.log(listItem.firstElementChild);
+
+// Get the last element
+console.log(listItem.lastElementChild);
+
+
+// Getting access on sibling
+// Include the White spaces
+console.log(listItem.previousSibling);
+
+// Gives the previous sibling Element
+console.log(listItem.previousElementSibling);
+
+// Gives the next sibling Element
+console.log(listItem.nextElementSibling);
