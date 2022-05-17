@@ -52,3 +52,18 @@ Array.from(list).push("Hello");
 Array.from(list).forEach(function(li) {
 	li.textContent = "Hello Javascript";
 });
+
+
+var h2 = document.querySelector('header h2')
+// Creating an inline styling
+h2.style.color = "red"
+h2ystyle.backgroundColor = "green"
+var list = document.querySelectorAll('ul li')
+for (var i = 0; i < list.length; i++) {
+	  lis[i].style.backgroundColor = 'blue'
+}
+
+// Using cssText property
+// It remove recent inline style and replace it with new styles
+// Takes more than one style argument
+lis[0].style.cssText = 'background-color: yellow; font-size:25px;'

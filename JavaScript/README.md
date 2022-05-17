@@ -181,3 +181,12 @@ We use document or window.document to get the document object in the console.
 
 - foreach() method executes a provided function once for each array element.
 	* uses function as a paramenter
+
+- querySelector() 
+
+- style property 
+	* cssText 
+
+	* color 
+	
+	* backgroundColor
