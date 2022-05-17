@@ -67,7 +67,6 @@ for (var i = 0; i < list.length; i++) {
 // It remove recent inline style and replace it with new styles
 // Takes more than one style argument
 lis[0].style.cssText = 'background-color: yellow; font-size:25px;'
-*/
 
 var h2 = document.querySelector('header h2');
 
@@ -85,3 +84,24 @@ h2.classList.toggle("changeBg");
 
 console.log(h2.classList);
 
+*/
+
+
+var h2 = document.querySelector("header h2");
+/*
+h2.onclick = function() {
+	console.log("Clicked");
+}
+
+h2.onmouseover = function() {
+	console.log("MouseOver");
+}
+*/
+
+function a() {
+	console.log("Clicked");
+}
+
+function b() {
+	console.log("MouseOver");
+}

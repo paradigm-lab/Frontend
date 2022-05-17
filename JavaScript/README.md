@@ -201,3 +201,9 @@ We use document or window.document to get the document object in the console.
 	* Returns the class name(s) of an element, as a DOMTokenList object.
 	* Useful to add, remove and toggle CSS classes on an element.
 	* classList property is read-only
+
+
+
+# Events
+	* Actions that happen on a web page you are programming
+	* Events make web pages more interactive and dynamic
