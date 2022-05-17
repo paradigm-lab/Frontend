@@ -87,7 +87,7 @@ console.log(h2.classList);
 */
 
 
-var h2 = document.querySelector("header h2");
+//var h2 = document.querySelector("header h2");
 /*
 h2.onclick = function() {
 	console.log("Clicked");
@@ -106,7 +106,7 @@ function b() {
 }
 */
 
-
+/*
 h2.addEventListener("click", function() {
 	a(2, 10);
 });
@@ -115,9 +115,51 @@ h2.addEventListener("click", function() {
 function a(x, y) {
 	console.log(x * y);
 }
+*/
 
 /* 
 function b() {
 	console.log("Clicked b");
 }
 */
+
+
+
+/*
+var div = document.querySelector('div.wrapper');
+var header = document.querySelector('header');
+
+
+div.addEventListener('click', function(){
+	var delay = new Date().getTime() + 1000;
+	while (new Date() < delay) {}
+	console.log("From div");
+}, true);
+
+header.addEventListener('click', function(){
+	var delay = new Date().getTime() + 1000;
+	while (new Date() < delay) {}
+	console.log("From header");
+}, true);
+*/
+
+
+var h2 = document.querySelector('header h2');
+
+
+// Waiting until function a() finish the execution 
+// After that run EventListener
+h2.addEventListener('click', function(){
+	console.log("From click event");
+}, false);
+
+function a() {
+	var delay = new Date().getTime() + 3000;
+	while (new Date() < delay) {}
+	console.log("From function a");
+}
+
+a();
+
+console.log("Global Code is Executed");
+

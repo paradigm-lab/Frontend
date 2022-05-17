@@ -215,3 +215,12 @@ We use document or window.document to get the document object in the console.
 - Event Object
 	* When an event occurs, the event object is created
 	* In most cases Event Object is expressed as (e)
+
+- Event bubbling
+	* A method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. 
+	* Sequence of event firing from inner to outer
+	* We can manage this by using the third argurment which is the boolean value (false).   
+
+- Event Capturing
+	* Sequence of event firing from outer to inner
+	* We can manage this by using the third argurment which is the boolean value (true).   
