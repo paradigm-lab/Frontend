@@ -46,3 +46,12 @@ hideItem.addEventListener("click", function() {
 	}
 });
 
+
+
+// ************************* SEARCH FILTER ****************************
+var searchInput = document.querySelector("#search-note input");
+
+// This event in fired when we release the press key on keyboard
+searchInput.addEventListener("keyup", function() {
+	console.log("Key is released");
+});
