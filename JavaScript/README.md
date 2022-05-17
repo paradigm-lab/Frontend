@@ -196,3 +196,8 @@ We use document or window.document to get the document object in the console.
 	* Gets and sets the value of class attribute of the specified element
 	* Returns a string value
 	* Returns string value
+
+- classList
+	* Returns the class name(s) of an element, as a DOMTokenList object.
+	* Useful to add, remove and toggle CSS classes on an element.
+	* classList property is read-only

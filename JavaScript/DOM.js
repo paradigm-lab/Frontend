@@ -9,7 +9,7 @@
 	console.log(el + " " + ll + " " le + " " ne);
 */
 
-
+/*
 var icons = document.getElementsByClassName('fa'); // icons is just a HTML collection
 
 for (var i = 0; i < icons.length; i++) {
@@ -67,12 +67,21 @@ for (var i = 0; i < list.length; i++) {
 // It remove recent inline style and replace it with new styles
 // Takes more than one style argument
 lis[0].style.cssText = 'background-color: yellow; font-size:25px;'
+*/
 
 var h2 = document.querySelector('header h2');
 
 // 
 h2.className = "changeBg";
-h2.className = " changeFt";
+//h2.className = " changeFt";
 
-console.log(typeof h2.className);
+h2.classList.add("changeFt");
+// h2.classList.remove("changeBg");
+
+// This will remove the changeBg from the list
+h2.classList.toggle("changeBg");
+
+// console.log(typeof h2.className);
+
+console.log(h2.classList);
 
