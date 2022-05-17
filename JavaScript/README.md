@@ -236,3 +236,6 @@ We use document or window.document to get the document object in the console.
 
 
 # DOM Navigation
+
+
+# DOM Manipulation

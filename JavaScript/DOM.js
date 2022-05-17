@@ -219,3 +219,19 @@ console.log(listItem.previousElementSibling);
 
 // Gives the next sibling Element
 console.log(listItem.nextElementSibling);
+
+
+// Using DOM manipulation We can create new Elements and add them in HTML document
+var newEl = document.createElement("button");
+var text = document.createTextNode("Click");
+
+newEl.appendChild(text);
+newEl.setAttribute("style", "display: block; margin:10px auto; padding:5px 10px; background-color: coral; color:#fff;");
+console.log(newEl);
+
+var form = document.getElementById("add");
+// form.appendChild(newEl);
+form.insertBefore(newEl, form.children[0]);
+
+// Remove Element from HTML document
+// newEl.parentElement.removeChild(newEl);
