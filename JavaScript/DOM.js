@@ -57,7 +57,7 @@ Array.from(list).forEach(function(li) {
 var h2 = document.querySelector('header h2')
 // Creating an inline styling
 h2.style.color = "red"
-h2ystyle.backgroundColor = "green"
+h2.style.backgroundColor = "green"
 var list = document.querySelectorAll('ul li')
 for (var i = 0; i < list.length; i++) {
 	  lis[i].style.backgroundColor = 'blue'
@@ -67,3 +67,12 @@ for (var i = 0; i < list.length; i++) {
 // It remove recent inline style and replace it with new styles
 // Takes more than one style argument
 lis[0].style.cssText = 'background-color: yellow; font-size:25px;'
+
+var h2 = document.querySelector('header h2');
+
+// 
+h2.className = "changeBg";
+h2.className = " changeFt";
+
+console.log(typeof h2.className);
+

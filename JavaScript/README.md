@@ -190,3 +190,9 @@ We use document or window.document to get the document object in the console.
 	* color 
 	
 	* backgroundColor
+
+
+- className()
+	* Gets and sets the value of class attribute of the specified element
+	* Returns a string value
+	* Returns string value
