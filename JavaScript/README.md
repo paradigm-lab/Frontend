@@ -171,6 +171,8 @@ We use document or window.document to get the document object in the console.
 - The main difference between the getElementsByClassName and getElementsByTagName
 	* geElementsByClassName get elements by specific the class name.
 	* getElementsByTagName get elements by specific tag name.
+- Similarity:
+	* They both return a HTMLCollection
 
 - querySelectorAll('selector')
 	* Return all elements in the document that matches a specified CSS selector

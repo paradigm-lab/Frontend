@@ -34,7 +34,8 @@ Array.from(icons).forEach(function(icon, index, arr) {
 });
 
 
-// Using the tag
+// Using the tag name
+// Returns an HTML Collection which can be converted to an Array instance
 var lis = document.getElementsByTagName('li');
 console.log(lis);
 
