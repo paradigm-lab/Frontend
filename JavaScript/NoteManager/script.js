@@ -28,3 +28,16 @@ document.getElementById("add-btn").addEventListener("click", function(e) {
 		addInput.value = "";
 	}
 });
+
+
+
+// *************************** HIDE ITEMS ******************************
+var hideItem = document.getElementById("hide");
+hideItem.addEventListener("click", function() {
+	if (hideItem.checked) {
+		ul.style.display = "none";
+	} else {
+		ul.style.display = "block";
+	}
+});
+
