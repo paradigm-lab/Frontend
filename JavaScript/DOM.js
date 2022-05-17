@@ -1,3 +1,15 @@
+/*
+ * Query Selector -> DOM method which is used to selector, Update and manipulate on them
+ *
+	var el = document.querySelector("ul li:nth-child(2)");
+	el.textContent = "Hello World";
+	var ll = document.querySelector("#search-note");
+	var le = document.querySelector("ul li");
+	var ne = document.querySelector("ul");
+	console.log(el + " " + ll + " " le + " " ne);
+*/
+
+
 var icons = document.getElementsByClassName('fa'); // icons is just a HTML collection
 
 for (var i = 0; i < icons.length; i++) {
