@@ -207,3 +207,7 @@ We use document or window.document to get the document object in the console.
 # Events
 	* Actions that happen on a web page you are programming
 	* Events make web pages more interactive and dynamic
+	
+- addEventListener()
+	* Attaches an event handler to the specified element
+	* You can use multiple similar events to one element at a time.

@@ -96,7 +96,6 @@ h2.onclick = function() {
 h2.onmouseover = function() {
 	console.log("MouseOver");
 }
-*/
 
 function a() {
 	console.log("Clicked");
@@ -104,4 +103,17 @@ function a() {
 
 function b() {
 	console.log("MouseOver");
+}
+*/
+
+
+h2.addEventListener("click", a);
+h2.addEventListener("click", b);
+
+function a() {
+	console.log("Clicked a");
+}
+
+function b() {
+	console.log("Clicked b");
 }
