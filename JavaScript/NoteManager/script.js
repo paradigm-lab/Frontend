@@ -34,10 +34,15 @@ document.getElementById("add-btn").addEventListener("click", function(e) {
 // *************************** HIDE ITEMS ******************************
 var hideItem = document.getElementById("hide");
 hideItem.addEventListener("click", function() {
+
+	var label = document.querySelector("label");
+
 	if (hideItem.checked) {
 		ul.style.display = "none";
+		label.textContent = "Unhide Notes";
 	} else {
 		ul.style.display = "block";
+		label.textContent = "Hide Notes";
 	}
 });
 
