@@ -43,6 +43,7 @@ console.log(lis);
 // NodeList is an object and it's almost the same as an HTMLCollection
 // Both of the have the length and they are index based
 // We can provide multiple CSS selectors
+// Put the element in node list selects element top to bottom
 var list = document.querySelectorAll('li, h2');
 console.log(list);
 Array.from(list).push("Hello");
