@@ -141,7 +141,6 @@ header.addEventListener('click', function(){
 	while (new Date() < delay) {}
 	console.log("From header");
 }, true);
-*/
 
 
 var h2 = document.querySelector('header h2');
@@ -162,4 +161,27 @@ function a() {
 a();
 
 console.log("Global Code is Executed");
+
+
+var div = document.querySelector('div.wrapper');
+div.getAttribute("class"); 
+div.getAttribute("id");
+
+// Add an attribute and value in the element
+div.setAttribute("style", "background:  coral")
+// Remove an attribute from element
+div.removeAttribute("style")
+// Returns a boolean
+div.hasAttribute("style")
+*/
+
+
+var btn = document.getElementById("add-btn");
+var input = document.getElementById("add-input");
+
+btn.addEventListener("click", function(e) {
+	e.preventDefault();
+	input.setAttribute("type", "submit");
+	input.setAttribute("value", input.value);
+});
 

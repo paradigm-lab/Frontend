@@ -224,3 +224,13 @@ We use document or window.document to get the document object in the console.
 - Event Capturing
 	* Sequence of event firing from outer to inner
 	* We can manage this by using the third argurment which is the boolean value (true).   
+
+# set / Get Attributes
+- getAttribute('attr')
+	* Returns the value of the attribute with the specified name of the element
+	* Returns value as a string
+
+- setAttribute('attr', 'value')
+	* Sets the value of an attribute on the specified element
+	* If the attribute already exists, the value is updated
+
