@@ -146,6 +146,12 @@ eg:
 document is an object. We can prove this by writing typeof document in the console.
 We use document or window.document to get the document object in the console.
 
+# What you need to now:
+	- How to changed HTML element
+	- HOw to style HTML element
+	- How to react with HTML DOM events
+	- How to add and delete HTML element
+
 # Single Elements or Individual Elements
 - getElementsById()
 
