@@ -107,11 +107,13 @@ function b() {
 */
 
 
-h2.addEventListener("click", a);
+h2.addEventListener("click", function() {
+	a(2, 10);
+});
 // h2.addEventListener("click", b);
 
-function a() {
-	console.log(this);
+function a(x, y) {
+	console.log(x * y);
 }
 
 /* 
