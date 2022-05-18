@@ -41,7 +41,10 @@
 	var b = new Objec();    -----------------------
 		     __proto__
 
-
+	* function a() {} (Special type of object)	-> Prototype Object(function a)
+							-> Prototype Object(Global object Function)
+	
+	* var var b = {} 				-> Prototype Object(Global object Function)
 	
 	- Prototypal Vs Classical
 		*  

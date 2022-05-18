@@ -64,5 +64,3 @@ console.log(strObj);
 console.log(typeof strObj);
 
 
-
-
