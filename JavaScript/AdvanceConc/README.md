@@ -27,4 +27,9 @@
 	* new Number();
 
 
-
+- ProtoType(Inheritance)
+	* Every object inherits properties and method from its prototype.
+	* Prototype itself is an object
+	
+	- Prototypal Vs Classical
+		*  
