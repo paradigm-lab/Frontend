@@ -48,3 +48,8 @@
 	
 	- Prototypal Vs Classical
 		*  
+
+
+- Object.create()
+	* Allows us to create object and defines for that object prototype that we want.
+	* It is a method of a Global Object.
