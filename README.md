@@ -26,3 +26,12 @@ Syntax Parser is the prode of javascript engineer whereby it Checks code charact
 
 
  
+## How to disable javascript in firefox:
+Here are the steps to turn on or off javascript in firefox:-
+	* Open a new tab → type about:config in the address bar.
+	* Then you will find the warning dialog. Select I’ll be careful, I promise!
+	* Then you will find the list of configure options in the browser.
+	* In the search bar, type javascript.enabled.
+	* There you will find the option to enable or disable javascript by right-clicking on the value of that option → select toggle.
+	
+
