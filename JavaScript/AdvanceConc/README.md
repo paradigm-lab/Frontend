@@ -66,5 +66,7 @@
 	IIFE is a function that runs as soon as it is defined.
 
 
+- Closure
+	Function has always access to the variables of its outer function even after the execution context of the outer function is finished.
 
 	
