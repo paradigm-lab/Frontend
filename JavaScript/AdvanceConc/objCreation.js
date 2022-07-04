@@ -14,6 +14,7 @@ var obj2 = {};
 // console.log(obj2);
 
 
+// Function Constructor
 function Person() {
 	this.name = "Jhon";
 }
@@ -54,3 +55,16 @@ var secondProto = Object.create(firstProto, {
 });
 
 console.log(secondProto);
+
+
+var bob = Object.create(secondProto, {
+	name: {
+		value: 'Bob'
+	}
+});
+
+console.log(bob);
+
+var obj = Object.create(null);
+
+console.log(obj);
