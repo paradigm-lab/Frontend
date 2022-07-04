@@ -60,3 +60,31 @@ console.log(checkResult(scores, passOrFail));
 console.log(checkResult(scores, calcDifference));
 
 
+/*	Return a function from other functions		*/
+
+function finalResult(score) {
+	if (score >= 81) {
+		return function(name) {
+			console.log(name + ', you passed an exam and yoou are student of State University');
+		}
+	} else if (score >= 51) {
+		return function(name) {
+			console.log(name + ', you passed and exam and you are student of State College');
+		}
+	} else {
+		return function(name) {
+			console.log(name + ', you failed');
+		}
+	}
+}
+
+var result1 = finalResult(77);
+result1('John');
+
+var result2 = finalResult(44);
+result2('Jane');
+
+finalResult(96)('Juma');	// Using the short hand notation this is possible because javascript executes code from left to right
+
+
+
