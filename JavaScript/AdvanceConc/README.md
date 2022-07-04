@@ -53,3 +53,10 @@
 - Object.create()
 	* Allows us to create object and defines for that object prototype that we want.
 	* It is a method of a Global Object.
+
+
+- First-Class Functions 
+	* Store function in a variable
+	* Use Function as a variable
+	* Pass function as a parameter
+	* Return function from other function
