@@ -60,3 +60,11 @@
 	* Use Function as a variable
 	* Pass function as a parameter
 	* Return function from other function
+
+
+- IIFE (Immediately Invoked Function Expression)
+	IIFE is a function that runs as soon as it is defined.
+
+
+
+	
