@@ -11,3 +11,7 @@ Frontend development is also tightly related to web design and user experience a
 
 ## HTML
 Hyper Text Markup Language(HTML) is a markup language that allows you to structure the information that is displayed to the user. The HTML document consists of elements each represents by an HTML tag, such as a heading, a paragraph of text or a text input field. HTML documents can also link to other documents using hyperlinks. Each tag carries its own type of content, has a certain appearance and attached behavior. Once you get a hang of HTML, you will be able to create very simple static HTML pages.
+
+
+Note:
+	HTML markup (otherwise known as Structure), CSS style (otherwise know as Presentation), Javascript (otherwise known as behavior)
